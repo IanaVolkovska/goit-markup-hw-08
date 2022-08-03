@@ -1,6 +1,14 @@
 .activity__section {
     padding-bottom: 94px;
     margin-top: 0px;
+
+    @media screen and (min-width: 480px) {
+        display: none;
+    }
+
+         @media screen and (min-width: 768px) {
+             display: none;
+         }
 }
 
 .activity__items {

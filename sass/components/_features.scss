@@ -22,13 +22,18 @@
       display: flex;  
       flex-wrap: wrap;
     gap: 30px;
+    --item: 1;
     }
 
         @media screen and (min-width: 768px) {
             display: flex;
             flex-wrap: wrap;
             gap: 30px;
+            --item: 2;
         }
+        @media screen and (min-width: 1200px) {
+                    flex-wrap: nowrap;
+                }
 }
 
 .feature__iconfill {
@@ -91,6 +96,16 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 10px;
+
+    @media screen and (min-width: 480px) {
+            display: flex;
+            justify-content: center;
+        }
+    
+        @media screen and (min-width: 768px) {
+            display: flex;
+            justify-content: flex-start;
+        }
 }
 
 .feature__text {

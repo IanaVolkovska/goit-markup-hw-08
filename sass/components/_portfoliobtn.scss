@@ -4,6 +4,16 @@
     margin-bottom: 50px;
     text-decoration: none;
     list-style-type: none;
+
+    @media screen and (min-width: 480px) {
+        margin-bottom: 40px;
+        justify-content: center;
+    }
+
+        @media screen and (min-width: 768px) {
+            margin-bottom: 30px;
+            justify-content: center;
+        }
 }
 
 .portfolio__list {
@@ -31,6 +41,18 @@
 &:hover, &::after {
     color: var(--accent-text-color);
         background-color: var(--link-text-color);
+}
+
+@media screen  and (min-width: 480px) {
+    margin-left: 0;
+    column-gap: 8px;
+    gap: 8px;
+}
+
+@media screen and (min-width: 768px) {
+    margin-left: 0;
+    column-gap: 8px;
+    gap: 8px;
 }
 }
 

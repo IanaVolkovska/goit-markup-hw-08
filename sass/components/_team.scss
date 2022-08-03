@@ -3,6 +3,16 @@
     padding-top: 94px;
     padding-bottom: 94px;
     margin-bottom: 0px;
+
+    @media screen and (min-width: 480px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+        @media screen and (min-width: 768px) {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
 }
 
 .team__section-title {
@@ -14,6 +24,16 @@
     letter-spacing: 0.03em;
     margin-top: 0px;
     margin-bottom: 50px;
+
+    @media screen and (min-width: 480px) {
+        line-height: 1.18;
+        margin-bottom: 30px;
+    }
+
+        @media screen and (min-width: 768px) {
+            line-height: 1.18;
+            margin-bottom: 30px;
+        }
 }
 
 .team__list-all {
@@ -21,6 +41,16 @@
     align-items: center;
     list-style-type: none;
     text-decoration: none;
+
+    @media screen and (min-width: 480px) {
+        flex-wrap: wrap;
+        flex-basis: calc((100% - var(--indent) * (var(--item) - 1)) / var(--item));
+    }
+
+        @media screen and (min-width: 768px) {
+            flex-wrap: wrap;
+            flex-basis: calc((100% - var(--indent) * (var(--item) - 1)) / var(--item));
+        }
 }
 
 .team__list {
@@ -35,10 +65,28 @@
 
 .team__list:not(:last-child) {
     margin-right: 30px;
+
+    @media screen and (min-width: 480px) {
+        margin-right: 0;
+        gap: 30px;
+    }
+
+        @media screen and (min-width: 768px) {
+            margin-right: 0;
+            gap: 30px;
+        }
 }
 
 .team__section-title {
     margin-bottom: 50px;
+
+    @media screen and (min-width: 480px) {
+       margin-bottom: 30px; 
+    }
+
+        @media screen and (min-width: 768px) {
+            margin-bottom: 30px;
+        }
 }
 
 .team__list img {
@@ -74,6 +122,16 @@
 .team__socialicons-list {
     margin-left: 32px;
     margin-bottom: 30px;
+
+    @media screen and (min-width: 480px) {
+        margin-left: 122px;
+        margin-bottom: 24px;
+    }
+
+        @media screen and (min-width: 768px) {
+            margin-left: 74px;
+            margin-bottom: 24px;
+        }
 }
 
 .team__social-icons {
